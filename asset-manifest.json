@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-metrics-anime/static/css/main.bbffc701.css",
-    "main.js": "/react-metrics-anime/static/js/main.e17ea1e7.js",
+    "main.js": "/react-metrics-anime/static/js/main.c8c3ca39.js",
     "index.html": "/react-metrics-anime/index.html",
     "main.bbffc701.css.map": "/react-metrics-anime/static/css/main.bbffc701.css.map",
-    "main.e17ea1e7.js.map": "/react-metrics-anime/static/js/main.e17ea1e7.js.map"
+    "main.c8c3ca39.js.map": "/react-metrics-anime/static/js/main.c8c3ca39.js.map"
   },
   "entrypoints": [
     "static/css/main.bbffc701.css",
-    "static/js/main.e17ea1e7.js"
+    "static/js/main.c8c3ca39.js"
   ]
 }
