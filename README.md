@@ -10,7 +10,7 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [🔑 Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Demo](#live-demo)
   - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -63,10 +63,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Demo <a name="live-demo"></a>
 
 - [🔗 Live Demo Link](https://kit0-0.github.io/react-metrics-anime/)
-- [🔗 Presentation link]()
+- [🔗 Presentation link](https://drive.google.com/file/d/1FQD9Mj7v21qBXtykPSL5ooh5xHmrh7q5/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
