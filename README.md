@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>📚 react-metrics-anime</h1>
+  <h1>📺 react-metrics-anime</h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -49,13 +49,15 @@
 
 ### 🔑 Key Features <a name="key-features"></a>
 
-- **Category Exploration**: Users can view a list of anime categories and their corresponding numeric values fetched from the API.
+### Home Page
 
-- **Category Filtering**: The application provides the capability to filter anime categories, enhancing the user's browsing experience.
+- Upon loading, the webapp displays a list of anime categories, each with corresponding numeric values fetched from the API.
+- Users can click on a category item to navigate to the details page for that category.
 
-- **Detailed Anime Info**: Users can access detailed information about specific anime titles, including episode count, type, release date, and more.
+### Details Page
 
-- **Responsive Design**: The UI is designed to be responsive and user-friendly across different screen sizes.
+- The details page shows comprehensive information about the selected anime category.
+- A "Back" button allows users to return to the home page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +66,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [🔗 Live Demo Link](https://kit0-0.github.io/react-metrics-anime/)
-- [Presentation link]()
+- [🔗 Presentation link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +171,7 @@ If you like this project, give it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgments"></a>
 
-I would like to thank Microverse for providing guidance and support during the development of this project.
+I would like to thank Microverse for providing guidance and support during the development of this project. The design inspiration for this project is based on the work by Nelson Sakwa on Behance. The project also relies on data provided by [kitsu](https://kitsu.docs.apiary.io/) to fetch anime information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
