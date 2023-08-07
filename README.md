@@ -1,70 +1,183 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>📚 react-metrics-anime</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts
+# 📖 Table of Contents
 
-In the project directory, you can run:
+- [About the Project](#about-project)
+  - [🛠️ Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [🔑 Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [💻 Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Run Tests](#run-tests)
+    - [Build](#build)
+    - [Webpack Development Server](#webpack-development-server)
+  - [👤 Author](#author)
+  - [🔮 Future Features](#future-features)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show Your Support](#show-your-support)
+  - [🙏 Acknowledgments](#acknowledgments)
+  - [📝 License](#license)
 
-### `npm start`
+# 📖 About the Project <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**react-metrics-anime** is a single-page application built with React and Redux. It allows users to explore anime categories, view numeric values based on selected categories, and access detailed information about specific anime titles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Built With <a name="built-with"></a>
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>🖥️ Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="https://reactrouter.com/">React Router</a></li>
+    <li><a href="https://axios-http.com/">Axios</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li> 
+  </ul>
+</details>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- FEATURES -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔑 Key Features <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Category Exploration**: Users can view a list of anime categories and their corresponding numeric values fetched from the API.
 
-### `npm run eject`
+- **Category Filtering**: The application provides the capability to filter anime categories, enhancing the user's browsing experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Detailed Anime Info**: Users can access detailed information about specific anime titles, including episode count, type, release date, and more.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Responsive Design**: The UI is designed to be responsive and user-friendly across different screen sizes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- LIVE DEMO -->
 
-## Learn More
+## 🚀 Live Demo <a name="live-demo"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [🔗 Live Demo Link](https://kit0-0.github.io/react-metrics-anime/)
+- [Presentation link]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run this project, you need the following:
 
-### Making a Progressive Web App
+- 🌐 Web browser
+- 🐙 Git
+- 👨‍💻 Code editor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Setup
 
-### Advanced Configuration
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git clone https://github.com/kit0-0/react-metrics-anime.git
+```
 
-### Deployment
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To install all dependencies, run the following command:
 
-### `npm run build` fails to minify
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Run Tests
+
+To run tests, use the following commands:
+
+- To track CSS and JavaScript linter errors, run:
+```bash
+npm run lint
+```
+
+### Build
+
+To build the project, run the following command:
+
+```bash
+npm run build
+```
+
+### Webpack Development Server
+
+To run the webpack development server, execute the following command:
+
+```bash
+npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHOR -->
+
+## 👤 Author <a name="author"></a>
+
+👤 Kiko
+
+- GitHub: [@kit0-0](https://github.com/kit0-0)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔮 Future Features <a name="future-features"></a>
+
+- [ ] 📱 **Add Animation**: Enhance the user interface with smooth animations and transitions to make the user experience more engaging and interactive.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions are welcome! If you want to contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request.
+
+Feel free to check the [issues page](https://github.com/kit0-0/react-metrics-anime/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SHOW YOUR SUPPORT -->
+
+## ⭐️ Show Your Support <a name="show-your-support"></a>
+
+If you like this project, give it a ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
+
+I would like to thank Microverse for providing guidance and support during the development of this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is licensed under the [MIT License](./LICENSE).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
