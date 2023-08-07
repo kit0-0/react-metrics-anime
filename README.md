@@ -66,7 +66,7 @@
 ## 🚀 Demo <a name="live-demo"></a>
 
 - [🔗 Live Demo Link](https://kit0-0.github.io/react-metrics-anime/)
-- [🔗 Presentation link](https://drive.google.com/file/d/1FQD9Mj7v21qBXtykPSL5ooh5xHmrh7q5/view?usp=sharing)
+- [🔗 Presentation link](https://drive.google.com/file/d/1QMhXqh-Ou1zPplY-MRfc2iDJ5kBDhCYP/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
