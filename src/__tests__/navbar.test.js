@@ -5,7 +5,6 @@ import Navbar from '../components/Navbar';
 
 describe('Navbar Component', () => {
   test('renders title correctly based on pathname', () => {
-    // Test case when pathname is '/'
     const { getByText } = render(
       <MemoryRouter initialEntries={['/']}>
         <Navbar />
@@ -13,8 +12,6 @@ describe('Navbar Component', () => {
     );
     const titleForRoot = getByText('Most Animes');
     expect(titleForRoot).toBeInTheDocument();
-
-    // Test case when pathname is '/anime-details'
     const { getByText: getByTextDetails } = render(
       <MemoryRouter initialEntries={['/anime-details']}>
         <Navbar />
